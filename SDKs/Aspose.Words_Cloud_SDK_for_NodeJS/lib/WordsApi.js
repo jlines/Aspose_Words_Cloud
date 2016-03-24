@@ -1697,11 +1697,11 @@ WordsApi.prototype.PostDocumentExecuteMailMerge = function(name, withRegions, ma
     headerParams = {}
     formParams = {}
     files = {}
-	postData = null;
+	postData = file;
     
-	if(file !== 'undefined' && file !== null && file !== ''){
+	/*if(file !== 'undefined' && file !== null && file !== ''){
 		postData = fs.readFileSync(file)
-	}
+	}*/
 	
 	headerParams['Accept'] = 'application/xml,application/json'
     headerParams['Content-Type'] = 'multipart/form-data'
