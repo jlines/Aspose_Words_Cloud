@@ -1,7 +1,0 @@
-<phpunit bootstrap="bootstrap.php" colors="true">
-    <testsuites>
-        <testsuite name="Aspose.Words Cloud SDK for PHP">
-            <directory>./</directory>
-        </testsuite>
-    </testsuites>
-</phpunit>

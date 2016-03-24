@@ -1,5 +1,0 @@
-Properties
-// No public properties were found. No tests are generated for non-public scoped properties.
-
-Methods
-// No methods were found. No tests are generated for methods.
